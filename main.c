@@ -10,6 +10,11 @@
 
 int main()
 {
+	int i=0,a=8;
+	for(i=1;i<11;++i)
+	{
+		printf("%d * %d = %d\n",a,i,a*i);
+	}
 	printf("hello world\n");
 	return 0;
 }
